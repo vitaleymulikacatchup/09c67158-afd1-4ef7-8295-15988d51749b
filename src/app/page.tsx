@@ -62,7 +62,6 @@ export default function Home() {
             { label: 'Terms of Service', onClick: () => {} },
             { label: 'Contact', onClick: () => {} },
           ]}
-          copyrightText="© 2023 MemePulse"
         />
       </div>
     </SiteThemeProvider>
