@@ -19,7 +19,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/design-a-simple-high-contrast-logo-for-m-1759756079338-b0e43106.jpg"
-          logoAlt="MemePulse Logo"
           buttonText="Buy MEME"
         />
       </div>
@@ -57,7 +56,6 @@ export default function Home() {
       <div id="footer" data-section="footer">
         <FooterLogoEmphasisBackgroundGradient
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/design-a-simple-high-contrast-logo-for-m-1759756079338-b0e43106.jpg"
-          logoAlt="MemePulse Logo"
           logoText="MemePulse"
           items={[
             { label: 'Privacy Policy', onClick: () => {} },
