@@ -36,9 +36,9 @@ export default function Home() {
       <div id="how-to-buy" data-section="how-to-buy">
         <HowToBuy3D
           steps={[
-            { position: 'left', title: 'Step 1', description: 'Connect your wallet.' },
-            { position: 'center', title: 'Step 2', description: 'Choose your amount.' },
-            { position: 'right', title: 'Step 3', description: 'Confirm your purchase.' },
+            { position: 'left', title: 'Step 1', description: 'Connect your wallet.', image: 'https://example.com/image1.jpg' },
+            { position: 'center', title: 'Step 2', description: 'Choose your amount.', image: 'https://example.com/image2.jpg' },
+            { position: 'right', title: 'Step 3', description: 'Confirm your purchase.', image: 'https://example.com/image3.jpg' },
           ]}
         />
       </div>
